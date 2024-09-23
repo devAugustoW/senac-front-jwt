@@ -37,6 +37,7 @@
   border-radius: 4px;
 	border: 1px solid #343B4F;;
   outline: none;
+	color:#fff;
 }
 
 .authFormInput:focus {

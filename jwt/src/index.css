@@ -4,14 +4,8 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
 	--bg-color: #081028;  
 	
 }
@@ -52,6 +46,7 @@ button {
   background-image: linear-gradient(to right, #CB3CFF 20%, #7F25FB 68%);
   cursor: pointer;
   transition: border-color 0.25s;
+	color: rgba(255, 255, 255, 0.87);
 }
 button:hover {
   border-color: #646cff;

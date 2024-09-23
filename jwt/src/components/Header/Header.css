@@ -1,0 +1,17 @@
+.header {
+  background-color: #007bff; 
+  color: white; 
+  padding: 0.9375rem; /* 15px em rem */
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  position: fixed;
+  width: calc(100% - 12.5rem); /* 200px em rem */
+  z-index: 1; 
+  top: 0;
+  left: 12.5rem; /* 200px em rem */
+}
+
+.header-title {
+  font-size: 1.25rem; /* 20px em rem */
+}

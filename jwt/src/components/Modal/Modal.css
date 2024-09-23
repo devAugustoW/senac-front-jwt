@@ -11,7 +11,7 @@
   z-index: 1000;
 }
 
-.modal-content {
+.modalContent {
   width: 100%;
   max-width: 400px; /* largura máxima do modal */
   height: 300px; /* ajuste a altura conforme necessário */
@@ -27,15 +27,14 @@
   text-align: center;
 }
 
-.modal-content p {
+.modalContent p {
 	font-size: 2rem;
   color: #fff;
   margin-bottom: 1rem;
 }
 
-.modal-content button {
-	width: 20%;
-  padding: 0.8rem;
+.modalContent button {
+  padding: 0.8rem 2rem;
   font-size: 1rem;
   border: none;
   border-radius: 4px;
@@ -44,6 +43,6 @@
   cursor: pointer;
 }
 
-.modal-content button:hover {
+.modalContent button:hover {
   background-color: #646cffa4;
 }

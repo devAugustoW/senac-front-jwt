@@ -1,14 +1,14 @@
 import './Modal.css';
 
-const Modal = ({ message, onClose, onConfirm, isSuccess }) => {
+const Modal = ({ message, onClose, onSuccess }) => {
   return (
     <div className="modal">
-      <div className="modal-content">
+      <div className="modalContent">
         <p>{message}</p>
-        {isSuccess ? (
-          <button onClick={onConfirm}>OK</button>
+        {onSuccess ? (
+          <button onClick={onSuccess}>Ir para Login</button>
         ) : (
-          <button onClick={onClose}>Tente Novamente</button>
+          <button onClick={onClose}>Tente novamente</button>
         )}
       </div>
     </div>
